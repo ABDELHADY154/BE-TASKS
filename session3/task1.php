@@ -159,7 +159,7 @@
     endif;
     ?>
     <h2>Sign up</h2>
-    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" name="form">
+    <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
         Name: <input type="text" value="<?php if (!empty($name)) {
                                             echo $name;
                                         } ?>" name="name"><br><br>
@@ -191,9 +191,9 @@
                                                             echo $email;
                                                         } ?>"><br><br>
         if student check: <input type="checkbox" name="checkbox" value="student"><br><br>
-        upload your picture:<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" <?php if (!empty($upload)) {
-                                                                                                            echo $upload;
-                                                                                                        } ?>"><br><br>
+        upload your picture:<input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" value="<?php if (!empty($upload)) {
+                                                                                                                    echo $upload;
+                                                                                                                } ?>"><br><br>
         phone number: <input type="number" name="mobile" value="<?php if (!empty($num1)) {
                                                                     echo $num1;
                                                                 } ?>"><br><br>
