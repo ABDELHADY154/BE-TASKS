@@ -1,0 +1,12 @@
+{
+    "name": "moham/study",
+    "authors": [
+        {
+            "name": "Mohamed Abdelhady Elshamy",
+            "email": "62076892+ABDELHADY154@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "clausnz/php-helpers": "^0.2.1"
+    }
+}
