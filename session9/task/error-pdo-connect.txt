@@ -1,0 +1,2 @@
+20-06-09 19:37:43SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'crud'
+20-06-09 19:37:46SQLSTATE[HY000] [1044] Access denied for user ''@'localhost' to database 'crud'
